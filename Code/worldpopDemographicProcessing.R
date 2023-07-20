@@ -38,7 +38,7 @@ worldpop_all_wide <- worldpop_all_wide %>%
 worldpop_all_wide <- dplyr::select(worldpop_all_wide, zone, year, young_sum, working_sum, old_sum, total_pop, birthing_age, birth_rate, fertility_rate)
 
 
-# calculate depedency ratio ####
+# calculate dependency ratio ####
 
 # total dependency ratio
 worldpop_all_wide <- worldpop_all_wide %>%

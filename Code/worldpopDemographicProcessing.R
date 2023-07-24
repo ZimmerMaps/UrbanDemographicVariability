@@ -3,10 +3,10 @@ library(tidyverse)
 
 # load data set 1 ####
 # worldpop processed data for all cities
-worldpop_all <- read.csv("/Users/andrewzimmer/Documents/Montana State - Postdoc/Research/Zimmer - Population Pyramid/Version 2 - From November Onwards/Data/Merged CSVs/df_worldpop_agesex_all.csv")
+worldpop_all <- read.csv("")
 
 # age adjusted national-level death rate
-death_rate_age_raw <- read.csv("/Users/andrewzimmer/Documents/Montana State - Postdoc/Research/Zimmer - Paper 1 - Dem Var/WB Death Rate Data/age-standardized-deaths-from-all-causes.csv")
+death_rate_age_raw <- read.csv("")
 
 # extract useful information for later ####
 city_details <- select(worldpop_all, zone, city_name, country_iso, country_name, continent_name, latitude, longitude)
@@ -113,7 +113,7 @@ length(unique(worldpop_all_wide$zone))
 
 # save data set 2 ####
 
-write.csv(worldpop_all_wide, "/Users/andrewzimmer/Documents/Montana State - Postdoc/Research/Zimmer - Population Pyramid/Version 2 - From November Onwards/Data/Merged CSVs/sedacData/worldpop_agesex_urban_demographic.csv")
+write.csv(worldpop_all_wide, "")
 
 # calculate change in key variables ####
 
@@ -251,8 +251,8 @@ migration_calc_data_condensed <- select(migration_calc_data_condensed, zone, cit
 
 # save data set 3 ####
 
-write.csv(migration_calc_data_condensed, "/Users/andrewzimmer/Documents/Montana State - Postdoc/Research/Zimmer - Population Pyramid/Version 2 - From November Onwards/Data/Merged CSVs/sedacData/worldpop_agesex_change_migration.csv")
+write.csv(migration_calc_data_condensed, "")
 
 # assemble data set for leaflet mapping (data set 2 and 3 together) ####
 
-write.csv(leaflet_dataset, "/Users/andrewzimmer/Documents/Montana State - Postdoc/Research/Zimmer - Population Pyramid/Version 2 - From November Onwards/Data/Merged CSVs/sedacData/worldpop_agesex_leaflet_dataset.csv")
+write.csv(leaflet_dataset, "")

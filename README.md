@@ -6,6 +6,7 @@ Contains code to download, process, analyze and visualize WorldPop age-sex data 
 - Merge all age-sex groupings together
 - Generate demographic statistics and calculate migration/natural change through time
 
+# Urban Demographic Variability in Japan and Nigeria (2000-2020)
 ![](github.com/ZimmerMaps/UrbanDemographicVariability/blob/main/agu_merged.gif)
 
 ## Link to web map

@@ -6,5 +6,7 @@ Contains code to download, process, analyze and visualize WorldPop age-sex data 
 - Merge all age-sex groupings together
 - Generate demographic statistics and calculate migration/natural change through time
 
+![](github.com/ZimmerMaps/UrbanDemographicVariability/blob/main/agu_merged.gif)
+
 ## Link to web map
 [View Map Here](https://zimmermaps.github.io/UrbanDemographicVariability/)

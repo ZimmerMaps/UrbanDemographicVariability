@@ -8,8 +8,6 @@ Contains code to download, process, analyze and visualize WorldPop age-sex data 
 
 # Urban Demographic Variability in Japan and Nigeria (2000-2020)
 ![](https://github.com/ZimmerMaps/UrbanDemographicVariability/blob/main/agu_merged.gif)
-![](https://github.com/ZimmerMaps/UrbanDemographicVariability/blob/main/NGA.gif)
-![](https://github.com/ZimmerMaps/UrbanDemographicVariability/blob/main/JPN.gif)
 
 ## Link to web map
 [View Map Here](https://zimmermaps.github.io/UrbanDemographicVariability/)
